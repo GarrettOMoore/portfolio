@@ -1,3 +1,8 @@
+body {
+  background-color: #DE5F43;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -9,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1F1F1F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -31,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+
+.test-left, .test-right {
+  font-family: 'Maven Pro', sans-serif;
+  background-color: #EBEBEB;
+  width: 300px;
+  display: inline-block;
+  margin: 30px;
+  opacity: 0.9;
+  border-radius: 10%;
+  overflow: hidden;
+  border: 2px solid #1F1F1F;
+}
+
+.mouth {
+  width: 500px; 
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-left: 600px;
+  background-color: #EBEBEB;
+}
+
+img {
+  border: 2px solid #1F1F1F;
+  border-radius: 50%;
+}
+/* .test-right {
+  background-color: #EBEBEB;
+  width: 300px;
+  display: inline-block;
+  margin: 30px;
+  opacity: 0.9;
+  border-radius: 50%;
+  overflow: hidden;
+} */
+
+.header {
+  background-color: #EBEBEB;
+  opacity: 0.9;
+  display: inline;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+
+
