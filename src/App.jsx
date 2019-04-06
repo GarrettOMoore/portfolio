@@ -14,9 +14,9 @@ class App extends Component {
         <h1 className='moore'>  Moore  </h1>
        </div>
         <Lagoon />
-       <div className='dev-box'>
+       {/* <div className='dev-box'>
         <h3 className='web-dev'>Full Stack Web Developer</h3>
-       </div>
+       </div> */}
           
        <Portfolio />
         {/* <div className='test-left'>
