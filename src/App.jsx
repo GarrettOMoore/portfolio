@@ -33,7 +33,7 @@ class App extends Component {
       <div className='left-box'>
       <Logo />
        <nav>
-         <Link className='nav-text'to='/'>Home</Link> | {' '}
+         {/* <Link className='nav-text'to='/'>Home</Link> | {' '} */}
          <Link className='nav-text'to='/About'>About Me</Link> | {' '}
          <Link className='nav-text'to='/Projects'>Projects</Link> | {' '}
          <Link className='nav-text'to='/Music'>Music</Link> | {' '}
@@ -42,7 +42,7 @@ class App extends Component {
         <Portfolio />
        </div>
        <div className='right-box'>
-       <Route exact path='/' render={()=><Home/>} />
+       {/* <Route exact path='/' render={()=><Home/>} /> */}
        <Route exact path='/About' render={()=><About/>} />
        <Route exact path='/Projects' render={()=><Projects/>} />
        <Route exact path='/Music' render={()=><Music/>} />

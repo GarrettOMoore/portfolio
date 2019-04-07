@@ -99,6 +99,9 @@ nav {
 }
 
 
+.portfolio {
+  margin-right: 30px;
+}
 .eye-icon {
   /* margin: 40px; */
   margin-right: 450px;
@@ -106,6 +109,8 @@ nav {
 }
 
 .dl-res {
+  font-family: 'Cochin';
+  font-size: 1.2em;
   margin-right: 450px;
   margin-top: 40px;
 }
