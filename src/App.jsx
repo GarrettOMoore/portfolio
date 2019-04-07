@@ -16,12 +16,6 @@ class App extends Component {
       <Router>
       <div className="App">
       <Logo />
-      {/* <div className='header'>
-            <Lagoon />
-            <h1 className='garrett'>Garrett Moore</h1>
-            {/* <h1 className='moore'>  Moore  </h1> */}
-            {/* <h3 className='dev'>Full Stack Web Developer</h3> */}
-          {/* </div> */} */}
        <nav>
          <Link className='nav-text'to='/'>Home</Link> | {' '}
          <Link className='nav-text'to='/About'>About Me</Link> | {' '}

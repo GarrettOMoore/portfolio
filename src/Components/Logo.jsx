@@ -3,7 +3,7 @@ import logo from '../Images/Black_on_Transparent.png'
 
 const Logo = (props) => {
     return(
-        <img src={logo} width='600px' height='500px'/>
+        <img src={logo} width='400px' height='350px'/>
     )
 }
 
