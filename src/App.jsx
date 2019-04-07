@@ -5,6 +5,7 @@ import About from './Components/About'
 import Projects from './Components/Projects'
 import Music from './Components/Music'
 import Contact from './Components/Contact'
+import Logo from './Components/Logo'
 import Lagoon from './Components/Lagoon';
 import Portfolio from './Components/Portfolio'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
@@ -14,11 +15,13 @@ class App extends Component {
     return (
       <Router>
       <div className="App">
-      <div className='header'>
+      <Logo />
+      {/* <div className='header'>
+            <Lagoon />
             <h1 className='garrett'>Garrett Moore</h1>
             {/* <h1 className='moore'>  Moore  </h1> */}
             {/* <h3 className='dev'>Full Stack Web Developer</h3> */}
-          </div>
+          {/* </div> */} */}
        <nav>
          <Link className='nav-text'to='/'>Home</Link> | {' '}
          <Link className='nav-text'to='/About'>About Me</Link> | {' '}
@@ -26,7 +29,6 @@ class App extends Component {
          <Link className='nav-text'to='/Music'>Music</Link> | {' '}
          <Link className='nav-text'to='/Contact'>Contact</Link> 
        </nav>
-       <Lagoon />
        <Route exact path='/' render={()=><Home/>} />
        <Route exact path='/About' render={()=><About/>} />
        <Route exact path='/Projects' render={()=><Projects/>} />

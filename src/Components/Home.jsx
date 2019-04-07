@@ -5,7 +5,7 @@ import Portfolio from './Portfolio'
 const Home = (props) => {
     return(
         <div className="App">
-          <Portfolio />
+          {/* <Portfolio /> */}
           {/* <div className='header'> */}
             {/* <h1 className='garrett'>Garrett Moore</h1> */}
             {/* <h1 className='moore'>  Moore  </h1> */}
