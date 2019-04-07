@@ -20,11 +20,31 @@ body {
   /* border:6px solid #2A363B; */
   font-family: 'Nanum Gothic', sans-serif;
   height: 100vh;
+  width: 100%;
   background-image: linear-gradient(to top left, #99B898 50%, #FECEA8 50%)
 }
 
 .App {
   text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+.left-box{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 50%;
+  margin-left: 90px;
+  margin-top: 40px;
+}
+.right-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 50%;
+  margin-right: 80px;
+  margin-top: 80px;
 }
 
 .App-logo {
@@ -57,45 +77,6 @@ body {
   }
 }
 
-.header {
-  vertical-align: top;
-  margin: 0 auto;
-  margin-top: 30px;
-  background-color: rgba(255, 104, 0, 0.9);
-  opacity: 0.9;
-  overflow: hidden;
-  display: inline-block;
-  border: 2px solid #FECEA8;
-  border-radius: 6px;
-  padding: 5px;
-  height: 230px;
-  margin-right: 1090px;
-}
-
-.garrett {
-  vertical-align: top;
-  color: #2A363B;
-  font-family: 'Arima Madurai';
-  font-size: 3em;
-  line-height: 100px;
-  display: inline-block;
-  margin-left: 10px;
-  margin-top: 80px;
-  border: 6px solid #99B898;
-  background-color: #FECEA8;
-  border-radius: 19%;
-}
-
-.dev {
-  color: #2A363B;
-  font-family: 'Cochin';
-  font-size: 3em;
-}
-
-.lagoon-box {
-  display: inline-block;
-}
-
 img {
   margin-right: 960px;
   margin-top: 35px;
@@ -103,20 +84,30 @@ img {
 }
 
 nav {
-  margin: 10px;
   font-family: 'Cochin';
   font-size: 1.5em;
   margin-top: 30px;
-  /* border: 4px solid #2A363B; */
   display: inline-block;
-  margin-right: 950px;
-  width: 800px;
+  margin-right: 330px;
 }
 
 .nav-text {
-  padding: 10px;
+  padding: 5px;
   color: #2A363B;
   text-decoration: none;
+  /* margin-right: 300px; */
+}
+
+
+.eye-icon {
+  /* margin: 40px; */
+  margin-right: 450px;
+  font-size: 6em;
+}
+
+.dl-res {
+  margin-right: 450px;
+  margin-top: 40px;
 }
 
 
