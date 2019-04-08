@@ -21,6 +21,7 @@ body {
   font-family: 'Nanum Gothic', sans-serif;
   height: 100vh;
   width: 100%;
+  opacity: 0.8;
   background-image: linear-gradient(to top left, #99B898 50%, #FECEA8 50%)
 }
 
@@ -30,6 +31,7 @@ body {
   width: 100vw;
   display: flex;
 }
+
 .left-box{
   display: flex;
   flex-direction: column;
@@ -37,14 +39,17 @@ body {
   width: 50%;
   margin-left: 90px;
   margin-top: 40px;
+  /* border: 2px solid black; */
 }
 .right-box {
   display: flex;
   flex-direction: column;
   flex: 1;
   width: 50%;
-  margin-right: 80px;
-  margin-top: 80px;
+  margin-right: 180px;
+  margin-top: 20px;
+  overflow: scroll;
+  /* border: 2px solid black; */
 }
 
 .App-logo {
@@ -77,10 +82,15 @@ body {
   }
 }
 
-img {
+.logo {
   margin-right: 960px;
   margin-top: 35px;
   display: inline-block;
+}
+
+.page-header {
+  font-family: 'Cochin';
+  font-size: 2em;
 }
 
 nav {
@@ -103,8 +113,10 @@ nav {
   margin-right: 30px;
 }
 .eye-icon {
+  /* color: #2A363B; */
+  margin-top: 20px;
   /* margin: 40px; */
-  margin-right: 450px;
+  margin-right: 460px;
   font-size: 6em;
 }
 
@@ -112,7 +124,24 @@ nav {
   font-family: 'Cochin';
   font-size: 1.2em;
   margin-right: 450px;
-  margin-top: 40px;
+  margin-top: 0px;
+}
+
+.projects-main {
+  font-family: 'Cochin';
+  font-size: 1.3em;
+}
+
+.project-pic {
+  /* display: flex;
+  flex-direction: column;
+  flex: 1; */
+  border: 2px solid #2A363B;
+}
+
+.citizenly {
+  border: 2px solid #2A363B;
+  border-radius: 10%;
 }
 
 
