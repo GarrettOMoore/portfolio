@@ -8,7 +8,9 @@
 .Cópia-de-GRISES-ALTLAS-4-hex { color: #E84A5F; }
 .Cópia-de-GRISES-ALTLAS-5-hex { color: #2A363B; }
 
-
+/* font-family: 'Barlow', sans-serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Cormorant Garamond', serif; */
 
 @font-face {
   font-family: 'Cochin';
@@ -18,7 +20,7 @@
 
 body {
   /* border:6px solid #2A363B; */
-  font-family: 'Nanum Gothic', sans-serif;
+  /* font-family: 'Nanum Gothic', sans-serif; */
   height: 100vh;
   width: 100%;
   opacity: 0.8;
@@ -36,7 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  width: 45%;
+  width: 50%;
   margin-left: 90px;
   margin-top: 40px;
   /* border: 2px solid black; */
@@ -45,7 +47,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  width: 55%;
+  width: 50%;
   margin-right: 90px;
   margin-top: 20px;
   overflow: scroll;
@@ -89,12 +91,12 @@ body {
 }
 
 .page-header {
-  font-family: 'Cochin';
+  font-family: 'Barlow', sans-serif;
   font-size: 2em;
 }
 
 nav {
-  font-family: 'Cochin';
+  font-family: 'Barlow', sans-serif;
   font-size: 1.5em;
   margin-top: 30px;
   display: inline-block;
@@ -103,7 +105,7 @@ nav {
 
 p {
   padding-right: 20px;
-  font-family: 'Cochin';
+  font-family: 'News Cycle', sans-serif;
   font-size: 1.2em;
 }
 .nav-text {
@@ -115,7 +117,7 @@ p {
 
 
 .portfolio {
-  margin-left: 100px;
+  margin-left: 15px;
 }
 .eye-icon {
   /* color: #2A363B; */
@@ -126,14 +128,14 @@ p {
 }
 
 .dl-res {
-  font-family: 'Cochin';
+  font-family: 'Barlow', sans-serif;
   font-size: 1.2em;
   margin-right: 440px;
   margin-top: 0px;
 }
 
 .projects-main {
-  font-family: 'Cochin';
+  font-family: 'Barlow', sans-serif;
   font-size: 1.3em;
 }
 
@@ -155,6 +157,11 @@ p {
 
 .video {
   margin: 30px;
+}
+
+.lagoon-img {
+  border-radius: 50%;
+  /* opacity: 1; */
 }
 
 
