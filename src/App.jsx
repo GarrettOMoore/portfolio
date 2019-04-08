@@ -7,6 +7,7 @@ import Music from './Components/Music'
 import Contact from './Components/Contact'
 import Logo from './Components/Logo'
 import Lagoon from './Components/Lagoon';
+import Mirror from './Components/Mirror'
 import Portfolio from './Components/Portfolio'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'

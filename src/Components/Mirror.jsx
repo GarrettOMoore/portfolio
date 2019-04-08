@@ -1,11 +1,12 @@
 import React from 'react'
-import mirror from '../Images/1510977_10204794010143434_4011853223414972228_n.jpg'
+import mirror from '../Images/mirror.jpg'
+import research from '../Images/research_one.jpeg'
 
 
 const Mirror = (props) => {
     return(
       <section className='mirror-box'>
-        <img src={mirror} className='mirror-img'height={'300px'} width={'300px'}/>
+        <img src={research} className='mirror-img'height={'500px'} width={'800px'}/>
       </section>
     )
 }
