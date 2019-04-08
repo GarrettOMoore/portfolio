@@ -26,7 +26,7 @@ export default class Portfolio extends Component {
     
     return(
         <div className='portfolio'>
-        <FontAwesomeIcon className='eye-icon'icon="eye" size={'70px'} />
+        <FontAwesomeIcon className='eye-icon'icon="eye" size={'5x'} />
         <p className='dl-res'>Resume</p>
         {/* <Document file="./public/portfolio_v3_pdf.pdf">
             <Page pageNumber={this.state.pageNumber} />
