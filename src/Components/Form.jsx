@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = (props) => {
     return (
-        <form name="contact" method="POST" data-netlify="true" action='/Contact'>
+        <form name="contact" method="POST" data-netlify="true">
   <p>
     <label>Name: <input className='form-name'type="text" name="name" /></label>   
   </p>

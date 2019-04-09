@@ -1,23 +1,20 @@
 import React from 'react'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
-import { faGithubSquare } from '@fortawesome/free-brands-svg-icons'
-// import { findIconDefinition } from '@fortawesome/fontawesome-svg-core'
+import { faExternalLinkAlt, faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faGithubSquare, faGit, faBootstrap, faHtml5, faJs, faLinkedin, faNode, faNpm, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
 
-// const git = findIconDefinition({ prefix: 'fa', iconName: 'Github' })
-// const linked = findIconDefinition({ prefix: 'fas', iconName: 'linkedIn'})
-
-library.add(faGithubSquare, faExternalLinkAlt)
+library.add(faDatabase, faExternalLinkAlt, faGithubSquare, faGit, faBootstrap, faHtml5, faJs, faLinkedin, faNode, faNpm, faPython, faReact)
 
 
-const ContactIcons = (props) => {
+const SkillIcons = (props) => {
     return(
-        <div className='icon-box'>
+        <div className='contact-icon-box'>
         <FontAwesomeIcon className='git-icon'icon={faGithubSquare} size={'4x'}  color={'#2A363B'}/>
-        <FontAwesomeIcon className='link-icon'icon={faExternalLinkAlt} size={'4x'} color={'#2A363B'} />
+        <FontAwesomeIcon className='git-icon'icon={faLinkedin} size={'4x'}  color={'#2A363B'}/>
         </div>
+
     )
 }
 
-export default ContactIcons
+export default SkillIcons
