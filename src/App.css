@@ -117,7 +117,7 @@ p {
 
 
 .portfolio {
-  margin-left: 15px;
+  margin-left: 13px;
 }
 .eye-icon {
   /* color: #2A363B; */
@@ -127,10 +127,15 @@ p {
   font-size: 6em;
 }
 
+.eye-icon:hover {
+  color: #E84A5F;  
+}
+
 .dl-res {
+  letter-spacing: 8px;
   font-family: 'Barlow', sans-serif;
   font-size: 1.2em;
-  margin-right: 440px;
+  margin-right: 434px;
   margin-top: 0px;
 }
 
@@ -164,5 +169,63 @@ p {
   /* opacity: 1; */
 }
 
+form {
+  font-family: 'News Cycle', sans-serif;
+  /* margin-right: 30px; */
+}
+.form-name {
+  height: 22px;
+  margin-right: 60px;
+}
 
+.form-email {
+  height: 22px;
+  margin-right: 60px;
+}
+
+.form-subject {
+  height: 22px;
+  width: 200px;
+}
+
+textarea {
+  font-family: 'News Cycle', sans-serif;
+  font-size: 18px;
+  width: 400px;
+  height: 200px;
+  margin-left: 70px;
+}
+
+button {
+  text-align: center;
+  font-family: 'News Cycle', sans-serif;
+  /* padding: 4px; */
+  font-size: 19px;
+  letter-spacing: 9px;
+  width: 84px;
+  height: 32px;
+}
+
+.icon-box {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.git-icon {
+  margin-top: 12px;
+  margin-right: 38px;
+  margin-left: 18px;
+}
+
+.link-icon {
+  margin-bottom: 4px;
+}
+
+.git-icon:hover {
+  color: black;
+}
+
+.link-icon:hover {
+  color: black;
+}
 

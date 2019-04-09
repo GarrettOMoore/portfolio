@@ -2,18 +2,21 @@ import React from 'react'
 
 const Form = (props) => {
     return (
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" action='/Contact'>
   <p>
-    <label>Your Name: <input className='form-name'type="text" name="name" /></label>   
+    <label>Name: <input className='form-name'type="text" name="name" /></label>   
   </p>
   <p>
-    <label>Your Email: <input className='form-email'type="email" name="email" /></label>
+    <label>Email: <input className='form-email'type="email" name="email" /></label>
   </p>
   <p>
-    <label>Message: <textarea className='form-msg'name="message"></textarea></label>
+    <label>Subject: <input className='form-subject'type="text" name="subject" /></label>
   </p>
   <p>
-    <button type="submit">Send</button>
+    <label> <textarea className='form-msg'name="message" placeholder="Message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">SEND</button>
   </p>
 </form>
     )
