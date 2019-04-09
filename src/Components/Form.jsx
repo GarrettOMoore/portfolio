@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-const Form = (props) => {
+
+const Form = (props) =>  {
+
     return (
-        <form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true" action='/Contact'>
   <p>
     <label>Name: <input className='form-name'type="text" name="name" /></label>   
   </p>

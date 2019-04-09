@@ -93,6 +93,7 @@ body {
 .page-header {
   font-family: 'Barlow', sans-serif;
   font-size: 2em;
+  letter-spacing: 4px;
 }
 
 nav {
@@ -212,20 +213,44 @@ button {
 }
 
 .git-icon {
-  margin-top: 12px;
+  padding: 5px;
+  margin-top: 20px;
   margin-right: 38px;
   margin-left: 18px;
 }
 
-.link-icon {
-  margin-bottom: 4px;
+.react-icon{ 
+  margin-top: 24px;
+  margin-right: 38px;
+  margin-left: 18px;
+  font-size: 4.5em;
+  color: #2A363B;
 }
+
 
 .git-icon:hover {
   color: black;
 }
 
-.link-icon:hover {
+.react-icon:hover {
+  color: black;
+}
+.proj-git-icon {
+  padding: 5px;
+  margin-top: 20px;
+  margin-right: 38px;
+  margin-left: 18px;
+}
+
+.proj-git-icon:hover {
+  color: black;
+}
+
+.proj-link-icon {
+  margin-bottom: 9px;
+}
+
+.proj-link-icon:hover {
   color: black;
 }
 

@@ -14,8 +14,8 @@ library.add(faGithubSquare, faExternalLinkAlt, faLinkedin)
 const ProjectIcons = (props) => {
     return(
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faGithubSquare} size={'4x'}  color={'#2A363B'}/>
-        <FontAwesomeIcon className='link-icon'icon={faExternalLinkAlt} size={'4x'} color={'#2A363B'} />
+        <a href={props.git}><FontAwesomeIcon className='proj-git-icon'icon={faGithubSquare} size={'4x'}  color={'#2A363B'}/></a>
+        <a href={props.live}><FontAwesomeIcon className='proj-link-icon'icon={faExternalLinkAlt} size={'4x'} color={'#2A363B'} /></a>
         </div>
     )
 }
