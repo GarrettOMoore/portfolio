@@ -1,15 +1,13 @@
 import React from 'react'
-import Lagoon from './Lagoon';
 import Form from './Form'
-import ContactIcons from './ContactIcons'
+import ContactPic from './ContactPic'
 
 const Contact = (props) => {
     return(
         <section className='contact-main'>
-        <p className='page-header'>Contact</p>
-        {/* <Lagoon /> */}
+        <p className='page-header'>Contact Me</p>
+        <ContactPic />
         <Form />
-        <ContactIcons />
         </section>
     )
 }

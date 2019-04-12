@@ -6,8 +6,8 @@ import Projects from './Components/Projects'
 import Music from './Components/Music'
 import Contact from './Components/Contact'
 import Logo from './Components/Logo'
-import Lagoon from './Components/Lagoon';
-import Mirror from './Components/Mirror'
+import Footer from './Components/Footer'
+import Landing from './Components/Landing'
 import Resume from './Components/Resume'
 import Portfolio from './Components/Portfolio'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
@@ -35,15 +35,16 @@ class App extends Component {
           <div className='left-box'>
             <Logo />
             <nav>
+              <Link className='nav-text'to='/'>Home</Link> | {' '}
               <Link className='nav-text'to='/About'>About Me</Link> | {' '}
               <Link className='nav-text'to='/Projects'>Projects</Link> | {' '}
               <Link className='nav-text'to='/Music'>Music</Link> | {' '}
               <Link className='nav-text'to='/Contact'>Contact</Link> 
             </nav>
-            <Link className='nav-text'to='/Resume'> <Portfolio /> </Link> 
+            <Link className='res-text'to='/Resume'> <Portfolio /> </Link> 
           </div>
+            <Route exact path='/' render={()=><Landing/>} />
           <div className='right-box'>
-            <Route exact path='/' render={()=><About/>} />
             <Route exact path='/About' render={()=><About/>} />
             <Route exact path='/Projects' render={()=><Projects/>} />
             <Route exact path='/Music' render={()=><Music/>} />
@@ -51,6 +52,7 @@ class App extends Component {
             <Route exact path='/Resume' render={()=><Resume/>} />
           </div>
         </div>
+        {/* <Footer /> */}
       </Router>
     );
   }
