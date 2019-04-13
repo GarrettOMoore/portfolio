@@ -1,5 +1,4 @@
-import React, {Component} from 'react'
-import {useTransition, animated} from 'react-spring'
+import React from 'react'
 import { Trail } from 'react-spring/renderprops';
 
 const letters = [

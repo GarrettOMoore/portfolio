@@ -71,7 +71,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: FF847C;
+  color: #FF847C;
 }
 
 .App-link {
@@ -91,20 +91,13 @@ body {
   -ms-animation-name: wiggle;
   -ms-animation-duration: 2000ms;
   -webkit-animation-duration: 2000ms;
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .square {
-  margin-top: 50px;
+  margin-top: 30px;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 .logo {
   margin-right: 946px;
@@ -118,6 +111,7 @@ body {
   color: #2A363B;
   letter-spacing: 4px;
   text-decoration: underline;
+  margin-left: 20px;
 }
 
 .project-header {
@@ -205,6 +199,10 @@ p {
 
 .lagoon-img {
   border-radius: 50%;
+}
+
+.contact-main {
+  margin-right: 70px;
 }
 
 .contact-icon-box {
@@ -373,12 +371,26 @@ button {
   position: absolute;
 } */
 
-.contact-img {
-  /* border: 2px solid #2A363B; */
+.contact-img { 
+  border: 2px solid #2A363B;
   border-radius: 3%;
+} 
+
+.landing-img {
+  border-radius: 50%;
 }
 
+.reveals-main-two {
+  margin-top: 200px;
+}
+
+
 @media screen and (max-width: 600px) {
+
+  body {
+    background-image: none;
+    background-color:#FECEA8;
+  }
 
   .App {
     display: grid;
@@ -389,19 +401,27 @@ button {
   }
 
   .logo {
-    display: none;
+    width: 200px;
+    height: 200px;
   }
 
   .left-box {
+    text-align: center;
     display: grid;
     overflow: visible;
     width: 25%;
   }
 
+  nav {
+    font-size: 12px;
+    width: 300px;
+  }
+
   .right-box {
+    text-align: center;
     display: grid;
     overflow: visible;
-    width: 25%;
+    width: 20%;
   }
   
 }

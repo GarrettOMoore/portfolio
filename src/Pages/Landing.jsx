@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import Welcome from './Welcome'
-import SkillModal from './SkillModal'
-import TransitionTest from './TransitionTest'
+import Welcome from '../Components/Welcome'
+import TransitionTest from '../Components/TransitionTest'
 
 class Landing extends Component {
     render() {

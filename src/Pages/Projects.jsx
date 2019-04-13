@@ -3,12 +3,13 @@ import tumblin from '../Images/tumblin.png'
 import record from '../Images/record-x_2.png'
 import citizen from '../Images/citizenly-1.png'
 import starbunker from '../Images/starbunker.png'
-import ProjectIcons from './ProjectIcons'
+import ProjectIcons from '../Components/ProjectIcons'
 
 const Projects = (props) => {
     return(
-        <section className='projects-main'>
+        <>
         <p className='page-header'>Projects</p>
+        <section className='projects-main'>
         <p className='project-header'>Record Exchange</p>
         <img src={record} className='project-pic' width={'570px'} height={'570px'} />
         <p>Utilizing the Discogs API, Record Exchange is a place for users to track their record collection, as well as foster trade and conversation about the music they love. Built in Express with a mySQL backend.</p>
@@ -26,6 +27,7 @@ const Projects = (props) => {
         <p>Winner of General Assembly Seattle's April 2019 Hackathon. I was paired with two UX Designers (Ling Ramos, and Alana Vaccaro) and one fellow developer (Michael Cowan) to come up with an app to aid the dwindling survivors of a robot apocalypse.</p>
         <ProjectIcons git={'https://github.com/GarrettOMoore/starbunker'} live={'https://blissful-williams-7d4519.netlify.com/'}/>
         </section>
+        </>
     )
 }
 

@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import Home from './Components/Home'
-import About from './Components/About'
-import Projects from './Components/Projects'
-import Music from './Components/Music'
-import Contact from './Components/Contact'
+import About from './Pages/About'
+import Projects from './Pages/Projects'
+import Music from './Pages/Music'
+import Contact from './Pages/Contact'
 import Logo from './Components/Logo'
 import Footer from './Components/Footer'
-import Landing from './Components/Landing'
+import Landing from './Pages/Landing'
 import Resume from './Components/Resume'
 import Portfolio from './Components/Portfolio'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye } from '@fortawesome/free-solid-svg-icons'
-import { fab } from '@fortawesome/free-brands-svg-icons'
 import { findIconDefinition } from '@fortawesome/fontawesome-svg-core'
 
 const eye = findIconDefinition({ prefix: 'fas', iconName: 'eye' })
