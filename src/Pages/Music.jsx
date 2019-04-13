@@ -1,9 +1,9 @@
 import React from 'react'
-import Kexp from '.././Components/Kexp'
-import BF from '.././Components/BF'
-import Cheveyo from '.././Components/Cheveyo'
-import InPink from '.././Components/InPink'
-import Babel from '.././Components/Babel'
+import Kexp from '../Components/Kexp'
+import BF from '../Components/BF'
+import Cheveyo from '../Components/Cheveyo'
+import InPink from '../Components/InPink'
+import Babel from '../Components/Babel'
 
 
 const Music = (props) => {
