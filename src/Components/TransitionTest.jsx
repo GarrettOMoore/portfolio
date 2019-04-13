@@ -70,6 +70,11 @@ import React from 'react'
 import LandingPic from '../Components/LandingPic'
 import { Transition, animated } from 'react-spring/renderprops'
 import '../styles.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faLaptopCode, faMusic } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faCoffee, faLaptopCode, faMusic)
 
 export default class App extends React.PureComponent {
   state = { show: true }
@@ -77,7 +82,7 @@ export default class App extends React.PureComponent {
   render() {
     return (
         <>
-      <div className="reveals-main" onClick={this.toggle}>
+      {/* <div className="reveals-main" onClick={this.toggle}>
         <Transition
           native
           items={this.state.show}
@@ -88,15 +93,21 @@ export default class App extends React.PureComponent {
             show && (props => <animated.div style={props}><LandingPic /></animated.div>)
           }
         </Transition>
-      </div>
-            <div className="reveals-main-two" onClick={this.toggle}>
+      </div> */}
+            <div className="reveals-main" onClick={this.toggle}>
             <Transition
+              className="reveals-main-two"
               native
               items={this.state.show}
-              from={{ position: 'absolute', overflow: 'hidden', height: 0 }}
-              enter={[{ height: 'auto' }]}
-              leave={{ height: 0 }}>
-              {show => show && (props => <animated.div style={props}>Hello!</animated.div>)
+              from={{ position: 'absolute', overflow: 'hidden', height: 0}}
+              enter={[{ height: 'auto', marginTop: '200'}]}
+              leave={{ height: 0}}>
+              {show => show && (props => 
+              <animated.div style={props}>
+                <FontAwesomeIcon className='welcome-icons'icon={faLaptopCode} size={'3x'}  color={'#2A363B'}/>
+                <FontAwesomeIcon className='welcome-icons'id='coffee'icon={faCoffee} size={'3x'}  color={'#2A363B'}/>
+                <FontAwesomeIcon className='welcome-icons'icon={faMusic} size={'3x'}  color={'#2A363B'}/>
+              </animated.div>)
               }
             </Transition>
           </div>
