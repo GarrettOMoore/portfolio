@@ -12,25 +12,25 @@ library.add(faDatabase, faMusic, faExternalLinkAlt, faGithubSquare, faGit, faBoo
 const SkillIcons = (props) => {
     return(
         <div className='skill-icon-box'>
-        <p className='page-header'>Skills:</p>
+        <p className='project-header'>Skills:</p>
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faReact} size={'3x'}  color={'#2A363B'}/>
+        <FontAwesomeIcon className='git-icon'icon={faReact} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>React</p>
         </div>
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faJs} size={'3x'}  color={'#2A363B'}/>
+        <FontAwesomeIcon className='git-icon'icon={faJs} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>JavaScript</p>
         </div>
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faNode} size={'3x'}  color={'#2A363B'}/>
+        <FontAwesomeIcon className='git-icon'icon={faNode} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>Node</p>
         </div>
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faGit} size={'3x'}  color={'#2A363B'}/>
+        <FontAwesomeIcon className='git-icon'icon={faGit} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>Git</p>
         </div>
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faPython} size={'3x'}  color={'#2A363B'}/>
+        <FontAwesomeIcon className='git-icon'icon={faPython} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>Python</p>
         </div>
         {/* <div className='icon-box'>
@@ -38,7 +38,7 @@ const SkillIcons = (props) => {
         <p>Name</p>
         </div> */}
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faDatabase} size={'3x'}  color={'#2A363B'}/>
+        <FontAwesomeIcon className='git-icon'icon={faDatabase} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>SQL</p>
         </div>
         {/* <div className='icon-box'>
@@ -46,21 +46,21 @@ const SkillIcons = (props) => {
         <p>Music</p>
         </div> */}
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faGithubSquare} size={'2x'}  color={'#2A363B'}/>
+        <FontAwesomeIcon className='git-icon'icon={faGithubSquare} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>Git Hub</p>
         </div>
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faNpm} size={'2x'}  color={'#2A363B'}/>
+        <FontAwesomeIcon className='git-icon'icon={faNpm} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>NPM</p>
         </div>
         <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faHtml5} size={'2x'}  color={'#2A363B'}/>
+        <FontAwesomeIcon className='git-icon'icon={faHtml5} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>HTML5</p>
         </div>
-        {/* <div className='icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faAdobe} size={'2x'}  color={'#2A363B'}/>
+        <div className='icon-box'>
+        <FontAwesomeIcon className='git-icon'icon={faAdobe} size={'4x'}  color={'#2A363B'}/>
         <p>Adobe CS</p>
-        </div> */}
+        </div>
         {/* <IconContext.Provider value={{ size: "4.5em", color: "#2A363B" }}> */}
                 <div className='icon-box'>
                 <DiDjango className= "react-icon" />
@@ -74,10 +74,10 @@ const SkillIcons = (props) => {
                 <DiMongodb className= "react-icon" />
                 <p className='icon-text'>MongoDB</p>
                 </div>
-                {/* <div className='icon-box'>
+                <div className='icon-box'>
                 <DiVisualstudio className= "react-icon" />
                 <p>VSCode</p>
-                </div> */}
+                </div>
                 <div className='icon-box'>
                 <DiCss3 className= "react-icon"/>
                 <p>CSS3</p>
@@ -90,10 +90,10 @@ const SkillIcons = (props) => {
                 <DiMaterializecss className= "react-icon" /> 
                 <p>Materialize</p>
                 </div>
-                {/* <div className='icon-box'>
+                <div className='icon-box'>
                 <DiTerminal className= "react-icon"/> 
                 <p>CMD Line</p>
-                </div> */}
+                </div>
 
         {/* </IconContext.Provider> */}
         </div>

@@ -1,17 +1,17 @@
 import React from 'react'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faExternalLinkAlt, faDatabase } from '@fortawesome/free-solid-svg-icons'
-import { faGithubSquare, faGit, faBootstrap, faHtml5, faJs, faLinkedin, faNode, faNpm, faPython, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faDatabase, faExternalLinkAlt, faGithubSquare, faGit, faBootstrap, faHtml5, faJs, faLinkedin, faNode, faNpm, faPython, faReact)
+library.add(faLinkedin, faInstagram, faTwitter)
 
 
 const SkillIcons = (props) => {
     return(
         <div className='contact-icon-box'>
-        <FontAwesomeIcon className='git-icon'icon={faGithubSquare} size={'4x'}  color={'#2A363B'}/>
-        <FontAwesomeIcon className='git-icon'icon={faLinkedin} size={'4x'}  color={'#2A363B'}/>
+        <a href="https://www.linkedin.com/in/r-garrett-moore/"><FontAwesomeIcon className='contact-icon'icon={faLinkedin} size={'4x'}  color={'#2A363B'}/></a>
+        <a href="https://www.instagram.com/garrettmoore/"><FontAwesomeIcon className='contact-icon'icon={faInstagram} size={'4x'}  color={'#2A363B'}/></a>
+        <a href="https://twitter.com/GarrettOMoore1?lang=en"><FontAwesomeIcon className='contact-icon'icon={faTwitter} size={'4x'}  color={'#2A363B'}/></a>
         </div>
 
     )

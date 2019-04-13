@@ -43,8 +43,10 @@ class App extends Component {
             </nav>
             <Link className='res-text'to='/Resume'> <Portfolio /> </Link> 
           </div>
-            <Route exact path='/' render={()=><Landing/>} />
           <div className='right-box'>
+            <div className='animation-box'>           
+              <Route exact path='/' render={()=><Landing/>} />
+            </div> 
             <Route exact path='/About' render={()=><About/>} />
             <Route exact path='/Projects' render={()=><Projects/>} />
             <Route exact path='/Music' render={()=><Music/>} />

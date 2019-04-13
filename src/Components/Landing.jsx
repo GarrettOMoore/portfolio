@@ -7,8 +7,8 @@ class Landing extends Component {
     render() {
         return(
             <>
-            <Welcome />
-            {/* <TransitionTest /> */}
+            {/* <Welcome /> */}
+            <TransitionTest />
             </>
         )
     }

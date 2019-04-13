@@ -36,8 +36,8 @@ function Welcome() {
         <Trail
         items={letters}
         keys={letter => letter.id}
-        from={{ marginTop: -80, opacity: 0}}
-        to={{ marginTop: 80, marginLeft: -20, opacity: 1 }}
+        from={{ marginBottom: -30, opacity: 0}}
+        to={{marginTop: 100,  opacity: 1 }}
         >
         {letter => props => (
             <div style={props} className="letter">
