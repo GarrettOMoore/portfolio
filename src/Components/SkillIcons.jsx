@@ -59,7 +59,7 @@ const SkillIcons = (props) => {
         </div>
         <div className='icon-box'>
         <FontAwesomeIcon className='git-icon'icon={faAdobe} size={'4x'}  color={'#2A363B'}/>
-        <p>Adobe CS</p>
+        <p className='icon-text'>Adobe CS</p>
         </div>
         {/* <IconContext.Provider value={{ size: "4.5em", color: "#2A363B" }}> */}
                 <div className='icon-box'>
@@ -76,23 +76,23 @@ const SkillIcons = (props) => {
                 </div>
                 <div className='icon-box'>
                 <DiVisualstudio className= "react-icon" />
-                <p>VSCode</p>
+                <p className='icon-text'>VSCode</p>
                 </div>
                 <div className='icon-box'>
                 <DiCss3 className= "react-icon"/>
-                <p>CSS3</p>
+                <p className='icon-text'>CSS3</p>
                 </div>
                 <div className='icon-box'>
                 <DiPostgresql className= "react-icon" /> 
-                <p>PostgreSQL</p>
+                <p className='icon-text'>PostgreSQL</p>
                 </div>
                 <div className='icon-box'>
                 <DiMaterializecss className= "react-icon" /> 
-                <p>Materialize</p>
+                <p className='icon-text'>Materialize</p>
                 </div>
                 <div className='icon-box'>
                 <DiTerminal className= "react-icon"/> 
-                <p>CMD Line</p>
+                <p className='icon-text'>CMD Line</p>
                 </div>
 
         {/* </IconContext.Provider> */}

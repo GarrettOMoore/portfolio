@@ -32,7 +32,7 @@ class App extends Component {
           <div className='left-box'>
             <Logo />
             <nav>
-              <Link className='nav-text'to='/'>Home</Link> | {' '}
+              {/* <Link className='nav-text'to='/'>Home</Link> | {' '} */}
               <Link className='nav-text'to='/About'>About Me</Link> | {' '}
               <Link className='nav-text'to='/Projects'>Projects</Link> | {' '}
               <Link className='nav-text'to='/Music'>Music</Link> | {' '}
@@ -41,10 +41,10 @@ class App extends Component {
             <Link className='res-text'to='/Resume'> <Portfolio /> </Link> 
           </div>
           <div className='right-box'>
-            <div className='animation-box'>           
+            {/* <div className='animation-box'>           
               <Route exact path='/' render={()=><Landing/>} />
-            </div> 
-            <Route exact path='/About' render={()=><About/>} />
+            </div>  */}
+            <Route exact path='/' render={()=><About/>} />
             <Route exact path='/Projects' render={()=><Projects/>} />
             <Route exact path='/Music' render={()=><Music/>} />
             <Route exact path='/Contact' render={()=><Contact/>} />

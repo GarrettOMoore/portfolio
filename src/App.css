@@ -110,7 +110,7 @@ body {
 
 .page-header {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.2em;
+  font-size: 3em;
   color: #2A363B;
   letter-spacing: 4px;
   text-decoration: underline;
@@ -128,15 +128,16 @@ nav {
   font-family: 'Barlow', sans-serif;
   font-size: 1.5em;
   margin-top: 30px;
+  letter-spacing: 0.28em;
   display: inline-block;
   width: 100%;
   margin-left: -100px;
 }
 
 p {
-  padding-right: 20px;
+  padding-right: 1em;
   font-family: 'News Cycle', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .nav-text {
@@ -192,7 +193,7 @@ p {
 }
 
 .mirror-img {
-  margin-top: 70px;
+  margin-top: 20px;
   opacity: 0.95;
 }
 
@@ -424,7 +425,7 @@ button {
   .App {
     width: 60vw;
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 100% 100%;
     grid-template-columns: 1fr;
     grid-template-areas: "left"
                          "right"
@@ -440,7 +441,7 @@ button {
     text-align: center;
     display: grid;
     overflow: visible;
-    width: 25%;
+    width: 100%;
   }
 
   nav {
@@ -459,7 +460,7 @@ button {
     text-align: center;
     display: grid;
     overflow: visible;
-    width: 32%;
+    width: 100%;
   }
 
   .project-pic {
