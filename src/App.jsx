@@ -33,7 +33,7 @@ class App extends Component {
             <Logo />
             <nav>
               {/* <Link className='nav-text'to='/'>Home</Link> | {' '} */}
-              <Link className='nav-text'to='/About'>About Me</Link> | {' '}
+              <Link className='nav-text'to='/'>About Me</Link> | {' '}
               <Link className='nav-text'to='/Projects'>Projects</Link> | {' '}
               <Link className='nav-text'to='/Music'>Music</Link> | {' '}
               <Link className='nav-text'to='/Contact'>Contact</Link> 
