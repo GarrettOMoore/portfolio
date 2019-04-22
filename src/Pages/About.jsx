@@ -9,8 +9,9 @@ const About = () => {
         <section className='about-main'>
         <p className='page-header'>About Me</p>
         <Mirror />
-        <p className='about-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum est nemo vel rerum molestias fugit modi id, laudantium iure cupiditate aspernatur ducimus recusandae facilis similique sint quia odio quas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque, a doloribus eligendi quis ad quod! Consequatur dignissimos eligendi numquam tempora recusandae provident vero accusantium expedita, sequi iusto voluptas, commodi libero.</p>
-        <p className='about-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias aliquam repellendus quibusdam soluta repudiandae, laboriosam quos consequatur consectetur nemo molestiae illum, corporis voluptates nulla earum qui mollitia incidunt voluptas ipsam!</p>
+        <p className='about-text'>Hello! My name is Garrett, and I'm a full stack web developer and musician based in Seattle, WA. Originally from San Diego, CA - 
+        I moved to Seattle for its thriving music and tech scene in 2008. When I'm not busy trying to hone my skills behind the computer or the drum set - you can usually 
+        find me roaming around the cities many great cafes, book stores, and record shops. </p>
         {/* <TransitionTest /> */}
         {/* <SkillModal /> */}
         <SkillIcons />
