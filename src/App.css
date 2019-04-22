@@ -118,10 +118,21 @@ body {
 }
 
 .project-header {
+  margin-left: 7%;
+  text-align: center;
   font-family: 'Lato', sans-serif;
   font-size: 2.5em;
   color: #2A363B;
   letter-spacing: 2px;
+}
+
+.project-pic {
+  margin: 0 auto;
+}
+
+.project-pic-sqr {
+  margin: 0 auto;
+  border: 2px solid #2A363B;
 }
 
 nav {
@@ -188,9 +199,6 @@ p {
   font-size: 1.3em;
 }
 
-.project-pic {
-  border: 2px solid #2A363B;
-}
 
 .mirror-img {
   margin-top: 20px;
