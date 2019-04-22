@@ -10,6 +10,7 @@ const Music = (props) => {
     return(
       <section className='music-main'>
       <p className='page-header'>Music</p>
+      <p>Here a few of my most recent musical endeavors:</p>
       <Babel />
       <BF />
       <Kexp />
