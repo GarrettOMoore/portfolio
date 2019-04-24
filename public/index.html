@@ -27,10 +27,12 @@
   </head>
   <body>
     <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
-    </form>
+      <input type="hidden" name="form-name" value="contact" />
+          <label><input className='form-name'type="text" name="name" placeholder="Name"/></label>   
+          <label><input className='form-email'type="email" name="email" placeholder="Email"/></label>
+          <label><input className='form-subject'type="text" name="subject" placeholder="Subject"/></label>
+          <label> <textarea className='form-msg'name="message" placeholder="Message"></textarea></label>
+      </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--

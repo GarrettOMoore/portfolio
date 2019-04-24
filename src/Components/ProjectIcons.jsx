@@ -11,11 +11,9 @@ const ProjectIcons = (props) => {
         <div className='proj-icon-box'>
             <div className='project-link'>
                 <a href={props.git}target="_blank"><FontAwesomeIcon className='proj-git-icon'icon={faGithubSquare} size={'4x'}  color={'#2A363B'}/></a>
-                <p>CODE</p>
             </div>
             <div className='project-link'>
                 <a href={props.live}target="_blank"><FontAwesomeIcon className='proj-link-icon'icon={faExternalLinkAlt} size={'4x'} color={'#2A363B'} /></a>
-                <p>LIVE</p>
             </div>
         </div>
     )

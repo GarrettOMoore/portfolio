@@ -425,12 +425,14 @@ button {
 
 
   body {
+    margin: 0 auto;
     width: 60vw;
     background-image: none;
     background-color:#FECEA8;
   }
 
   .App {
+    margin: 0 auto;
     width: 60vw;
     display: grid;
     grid-template-rows: 100% 100%;
@@ -440,31 +442,39 @@ button {
   }
 
   .logo {
-    width: 280px;
-    height: 280px;
-    margin-left: 15px;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
   }
 
   .left-box {
+    /* margin: 0 auto; */
     text-align: center;
     display: grid;
     overflow: visible;
-    width: 100%;
-  }
+    }
 
   nav {
+    margin: 0 auto;
     text-align: center;
-    font-size: 12px;
-    width: 300px;
-    margin-left: 10px;
+    font-size: 26px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 5%;
   }
 
+  .about-text {
+    font-size: 50px;
+  }
 
   .portfolio {
-    margin-right: 460px;
+    font-size: 2em;
+    /* margin: 0 auto; */
+    margin-left: 34%;
   }
+
   .right-box {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     display: grid;
     overflow: visible;
@@ -472,8 +482,20 @@ button {
   }
 
   .project-pic {
-    height: 18em;
+    height: 32em;
     width: 18em;
+  }
+
+  .proj-icon-box {
+    font-size: 2.3em;
+  }
+  .project-pic-sqr {
+    height: 34em;
+    width: 34em;
+  }
+
+  .project-info {
+    font-size: 3em;
   }
   .projects-main {
     text-align: center;
@@ -481,16 +503,29 @@ button {
 
   .page-header {
     margin-left: 62px;
-    font-size: 2em;
+    font-size: 6em;
   }
 
-  .mirror-box {
-    margin-left: 40px;
+  .skill-icon-box {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .mirror-img {
+    width: 100%;
+  }
+
+  p {
+    text-align: center;
+    font-size: 3em;
   }
   .contact-main {
     margin-left: -50px;
   }
 
+  .video {
+    width: 80%;
+    height: 30em;
+  }
   .contact-icon-box {
     margin-left: 50px;
   }
