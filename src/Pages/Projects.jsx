@@ -21,15 +21,15 @@ const Projects = (props) => {
         <ProjectIcons git={'https://github.com/GarrettOMoore/record-exchange'} live={'https://mighty-sands-84315.herokuapp.com/'}/>
         <p className='project-header'>Tumblin'</p>
         <img src={tumblin} className='project-pic-sqr' width={'285px'} height={'285px'}/>
-        <p className='project-info'>Evidence of my crash course in HTML5 Canvas. You are a tumbleweed - no mission, no purpose. Evading foes of no known origin, you have no choice - but to keep tumblin'...</p>
+        <p className='project-info'>Evidence of my crash course in HTML5 Canvas and vanilla JS. Sidescrolling shooter game where you play a tumbleweed, with no choice but to keep tumblin'...</p>
         <ProjectIcons git={'https://github.com/GarrettOMoore/tumblin-game'} live={'https://garrettomoore.github.io/tumblin-game/'}/>
         <p className='project-header'>Citizenly</p>
         <img src={citizen} className='project-pic' width={'190px'} height={'350px'} />
-        <p className='project-info'>Collaborative project with three developers. Built in React, with a MongoDB backend - Citizenly is an app for those trying become more involved in US politics.</p>
+        <p className='project-info'>Built in React, with a MongoDB backend - Citizenly is an app for those trying become more involved in US politics.</p>
         <ProjectIcons git={'https://github.com/GarrettOMoore/ga-wdi23-project-3'} live={'https://stark-meadow-11995.herokuapp.com/'}/>
         <p className='project-header'>Starbunker (24hr Hackathon)</p>
         <img src={starbunker} className='project-pic'width={'190px'} height={'350px'}/>
-        <p className='project-info'>Winner of General Assembly Seattle's April 2019 Hackathon. I wss paired with two UX designers to come up with an app to aid the dwindling survivors of a robot apocalypse.</p>
+        <p className='project-info'>Winner of General Assembly Seattle's April 2019 Hackathon. I worked collaboratively with two UX designers to come up with an app to aid the dwindling survivors of a robot apocalypse. 24 hours from conception to deployment - built in React with heavy usage of Mapbox and assorted CSV data.</p>
         <ProjectIcons git={'https://github.com/GarrettOMoore/starbunker'} live={'https://blissful-williams-7d4519.netlify.com/'}/>
         </section>
         </>
