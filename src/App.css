@@ -1,4 +1,3 @@
-/* Color Theme Swatches in Hex */
 .Cópia-de-GRISES-ALTLAS-1-hex { color: #99B898; }
 .Cópia-de-GRISES-ALTLAS-2-hex { color: #FECEA8; }
 .Cópia-de-GRISES-ALTLAS-3-hex { color: #FF847C; }
@@ -449,6 +448,7 @@ button {
 
   .left-box {
     /* margin: 0 auto; */
+    margin-left: 10em;
     text-align: center;
     display: grid;
     overflow: visible;
@@ -471,6 +471,7 @@ button {
     font-size: 2em;
     /* margin: 0 auto; */
     margin-left: 34%;
+    margin-bottom: 5%;
   }
 
   .right-box {
@@ -479,6 +480,7 @@ button {
     display: grid;
     overflow: visible;
     width: 100%;
+    margin-top: 6em;
   }
 
   .project-pic {
