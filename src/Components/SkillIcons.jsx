@@ -12,7 +12,7 @@ library.add(faDatabase, faMusic, faExternalLinkAlt, faGithubSquare, faGit, faBoo
 const SkillIcons = (props) => {
     return(
         <div className='skill-icon-box'>
-        <p className='project-header'>Skills:</p>
+        <p className='skills-header'>Skills:</p>
         <div className='icon-box'>
         <FontAwesomeIcon className='git-icon'icon={faReact} size={'4x'}  color={'#2A363B'}/>
         <p className='icon-text'>React</p>
