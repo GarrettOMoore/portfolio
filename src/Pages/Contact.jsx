@@ -6,14 +6,16 @@ import ContactIcons from '../Components/ContactIcons'
 
 const Contact = (props) => {
     return(
+        <>
+        <p className='page-header'>Contact Me</p>
         <section className='contact-main'>
-            <p className='page-header'>Contact Me</p>
             <div className='contact-body'>
                 <ContactPic />
                 <ContactIcons />
                 <Form />
             </div>
         </section>
+        </>
     )
 }
 

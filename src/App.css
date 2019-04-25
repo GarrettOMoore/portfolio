@@ -414,6 +414,7 @@ button {
   }
 
   .about-text {
+    margin-left: 4%;
     font-size: 65px;
   }
 
@@ -460,7 +461,7 @@ button {
 
   .project-info {
     font-size: 3em;
-    
+    margin-left: 4%;
   }
   .projects-main {
     text-align: center;
@@ -472,8 +473,10 @@ button {
   }
 
   .skills-header {
+    text-decoration: underline;
     margin-left: 18%;
   }
+
   .skill-icon-box {
     font-size: 2.5em;
     margin: 0 auto;
@@ -508,7 +511,12 @@ button {
     font-size: 3em;
   }
   .contact-main {
-    margin-left: -50px;
+    font-size: 2em;
+  }
+
+  .contact-icon-box {
+    margin-top: 8%;
+    font-size: 1.4em;
   }
 
   .video {
@@ -519,11 +527,28 @@ button {
     margin-left: 50px;
   }
   button {
-    width: 50%;
+    font-size: 0.5em;
+    height: 1.4em;
+    width: 30%;
+    margin-left: 10%;
   }
 
   .form-msg {
+    margin-left: 14%;
+    font-size: 0.5em;
     width: 80%;
+  }
+  .form-name {
+    height: 1.4em;
+    font-size: 0.5em;
+  }
+  .form-email {
+    height: 1.4em;
+    font-size: 0.5em;
+  }
+  .form-subject {
+    height: 1.4em;
+    font-size: 0.5em;
   }
   
 }
