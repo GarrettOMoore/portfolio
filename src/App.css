@@ -451,7 +451,12 @@ button {
   }
 
   .proj-icon-box {
+    width: 100%;
     font-size: 2.3em;
+  }
+
+  .project-link {
+    padding: 4%;
   }
   .project-pic-sqr {
     height: 40em;
