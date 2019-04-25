@@ -441,12 +441,12 @@ button {
     display: grid;
     overflow: visible;
     width: 100%;
-    margin-top: 56em;
+    margin-top: 50em;
   }
 
   .project-pic {
-    height: 32em;
-    width: 18em;
+    height: 38em;
+    width: 22em;
     margin-bottom: 5%;
   }
 
@@ -454,8 +454,8 @@ button {
     font-size: 2.3em;
   }
   .project-pic-sqr {
-    height: 34em;
-    width: 34em;
+    height: 40em;
+    width: 40em;
     margin-bottom: 5%;
   }
 
@@ -464,11 +464,12 @@ button {
     margin-left: 4%;
   }
   .projects-main {
+    margin-top: -10%;
     text-align: center;
   }
 
   .page-header {
-    margin-left: 100px;
+    margin-left: 140px;
     font-size: 8em;
   }
 
@@ -511,6 +512,7 @@ button {
     font-size: 3em;
   }
   .contact-main {
+    margin: 0 auto;
     font-size: 2em;
   }
 
@@ -536,19 +538,23 @@ button {
   .form-msg {
     margin-left: 14%;
     font-size: 0.5em;
+    width: 92%;
     width: 80%;
   }
   .form-name {
     height: 1.4em;
     font-size: 0.5em;
+    width: 92%;
   }
   .form-email {
     height: 1.4em;
     font-size: 0.5em;
+    width: 92%;
   }
   .form-subject {
     height: 1.4em;
     font-size: 0.5em;
+    width: 92%;
   }
   
 }
