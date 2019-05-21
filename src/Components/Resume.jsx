@@ -26,7 +26,7 @@ class Resume extends Component {
         <Document 
         className='resume-show'
         file={resume}
-            onLoadSuccess={this.onDocumentLoadSuccess.bind(this)}
+        onLoadSuccess={this.onDocumentLoadSuccess.bind(this)}
         >
         <Page pageNumber={1} renderMode="svg"/>
         </Document>

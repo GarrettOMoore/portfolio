@@ -14,7 +14,7 @@ const Projects = (props) => {
         <p className='project-header'>Crema</p>
         <img src={crema} className='project-pic' width={'190px'} height={'350px'} />
         <p className='project-info'>An app for coffee enthusiasts who want not only the best brewing methods, but a little information on coffee production, where to find the best local roasters, and of course - some curated music to compliment their favorite roasts. Made with MongoDB, Express, React, and Node.</p>
-        <ProjectIcons git={'https://github.com/GarrettOMoore/crema'} live={'https://immense-eyrie-19386.herokuapp.com/'}/>
+        <ProjectIcons git={'https://github.com/GarrettOMoore/crema'} live={'https://crema-gm.herokuapp.com/'}/>
         <p className='project-header'>Record Exchange</p>
         <img src={record} className='project-pic-sqr' width={'285px'} height={'285px'} />
         <p className='project-info'>Utilizing the Discogs API, Record Exchange is a place for users to track their record collection, as well as foster trade and conversation about the music they love. Built in Express with a mySQL backend.</p>
