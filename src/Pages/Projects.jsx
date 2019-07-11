@@ -5,7 +5,7 @@ import citizen from '../Images/citizenly-1.png'
 import starbunker from '../Images/starbunker.png'
 import ProjectIcons from '../Components/ProjectIcons'
 import crema from '../Images/crema-about-mobile.png'
-import mixte from '../Images/mixte-ss.png'
+import mixte from '../Images/mixte-iphone-screen.png'
 
 const Projects = (props) => {
     return(
@@ -13,9 +13,9 @@ const Projects = (props) => {
         <p className='page-header'>Projects</p>
         <section className='projects-main'>
         <p className='project-header'>Mixte</p>
-        <img src={mixte} className='project-pic' width={'285px'} height={'285px'} />
+        <img src={mixte} className='project-pic' width={'190px'} height={'350px'} />
         <p className='project-info'>A MERN stack app utilizing the Edamam APIs - Users can create their digital pantry, and compile miscellaneous ingredients to pull recipes from the API.</p>
-        <ProjectIcons git={'https://github.com/GarrettOMoore/edamam-fun'} live={'https://crema-gm.herokuapp.com/'}/>
+        <ProjectIcons git={'https://github.com/GarrettOMoore/edamam-fun'} live={'https://mixte-app.herokuapp.com/'}/>
         <p className='project-header'>Crema</p>
         <img src={crema} className='project-pic' width={'190px'} height={'350px'} />
         <p className='project-info'>An app for coffee enthusiasts who want not only the best brewing methods, but a little information on coffee production, where to find the best local roasters, and of course - some curated music to compliment their favorite roasts. Made with MongoDB, Express, React, and Node.</p>
