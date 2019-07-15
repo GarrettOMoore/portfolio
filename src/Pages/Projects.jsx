@@ -14,7 +14,7 @@ const Projects = (props) => {
         <section className='projects-main'>
         <p className='project-header'>Mixte</p>
         <img src={mixte} className='project-pic' width={'190px'} height={'350px'} />
-        <p className='project-info'>A MERN stack app utilizing the Edamam APIs - Users can create their digital pantry, and compile miscellaneous ingredients to pull recipes from the API.</p>
+        <p className='project-info'>A MERN stack app utilizing the Edamam APIs. Users can create their digital pantry, and compile miscellaneous ingredients to pull recipes from the API.</p>
         <ProjectIcons git={'https://github.com/GarrettOMoore/edamam-fun'} live={'https://mixte-app.herokuapp.com/'}/>
         <p className='project-header'>Crema</p>
         <img src={crema} className='project-pic' width={'190px'} height={'350px'} />
@@ -24,10 +24,6 @@ const Projects = (props) => {
         <img src={record} className='project-pic-sqr' width={'285px'} height={'285px'} />
         <p className='project-info'>Utilizing the Discogs API, Record Exchange is a place for users to track their record collection, as well as foster trade and conversation about the music they love. Built in Express with a mySQL backend.</p>
         <ProjectIcons git={'https://github.com/GarrettOMoore/record-exchange'} live={'https://recordexchange.herokuapp.com/'}/>
-        <p className='project-header'>Tumblin'</p>
-        <img src={tumblin} className='project-pic-sqr' width={'285px'} height={'285px'}/>
-        <p className='project-info'>Evidence of my crash course in HTML5 Canvas and vanilla JS. Sidescrolling shooter game where you play a tumbleweed, with no choice but to keep tumblin'...</p>
-        <ProjectIcons git={'https://github.com/GarrettOMoore/tumblin-game'} live={'https://garrettomoore.github.io/tumblin-game/'}/>
         <p className='project-header'>Citizenly</p>
         <img src={citizen} className='project-pic' width={'190px'} height={'350px'} />
         <p className='project-info'>Built in React, with a MongoDB backend - Citizenly is an app for those trying become more involved in US politics.</p>
