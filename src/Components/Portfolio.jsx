@@ -20,8 +20,8 @@ export default class Portfolio extends Component {
     
     return(
         <div className='portfolio'>
-        <FontAwesomeIcon className='eye-icon'icon="eye" size={'5x'} />
-        <p className='dl-res'>Résumé</p>
+          <FontAwesomeIcon className='eye-icon'icon="eye" size={'5x'} />
+          <p className='dl-res'>Resume</p>
         </div>
 
     )
