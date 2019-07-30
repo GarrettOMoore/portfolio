@@ -1,6 +1,6 @@
 import React from 'react'
 import mirror from '../Images/mirror.jpg'
-import research from '../Images/research_one.jpeg'
+import research from '../Images/lagoon.jpeg'
 
 
 const Mirror = (props) => {
